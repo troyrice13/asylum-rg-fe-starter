@@ -8,7 +8,7 @@ import '../../../styles/RenderLandingPage.less';
 import { Button } from 'antd';
 import { useHistory } from 'react-router-dom';
 // for the purposes of testing PageNav
-// import PageNav from '../../common/PageNav';
+ import PageNav from '../../common/PageNav';
 
 function RenderLandingPage(props) {
   const scrollToTop = () => {
@@ -60,7 +60,13 @@ function RenderLandingPage(props) {
         >
           View the Data
         </Button>
-        <a href="https://humanrightsfirst.org/wp-content/uploads/2022/10/COW2021001887-I589Data.csv"></a>
+        <a href="https://humanrightsfirst.org/wp-content/uploads/2022/10/COW2021001887-I589Data.csv">
+          <div className="read-more-btn">
+            <Button style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}>
+              Download the Data
+            </Button>
+          </div>
+        </a>
       </div>
 
       <div className="middle-section">

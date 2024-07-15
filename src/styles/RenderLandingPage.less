@@ -43,47 +43,46 @@
 
 .graphs-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
-}
-
-.grant-rates-by-office-graph-container {
-
-}
-
-.grant-rates-by-nationality-container {
-
-}
-
-.grant-rates-over-time-container {
-
-}
-
-
-.gr-office-img {
-    height: auto;
-    width: 60%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .gr-nationality-img {
-    height: auto;
-    width: 60%;
+height: auto;
+width: 200px;
+margin-bottom: 10px;
 }
 
+.gr-office-img,
 .gr-overtime-img {
     height: auto;
-    width: 60%;
+    width: 325px;
+    margin-bottom: 10px;
+}
+
+.grant-rates-by-office-graph-container, 
+.grant-rates-by-nationality-container, 
+.grant-rates-over-time-container {
+    flex: 1;
 }
 
 .view-more-data-btn-container {
-    height: 44px;
-    width: 180px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 100px;
+    gap: 10px;
+}
+
+.read-more-btn {
+    padding: 10px 20px;
 }
 
 .middle-section {
