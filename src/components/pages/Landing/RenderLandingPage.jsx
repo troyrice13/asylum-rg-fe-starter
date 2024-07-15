@@ -104,6 +104,14 @@ function RenderLandingPage(props) {
               <h3>Between fiscal year 2017 and 2020, the New York asylum office’s average grant rate was six times lower than the San Francisco asylum office.</h3>
             </div>
           </div>
+
+          <a href="https://humanrightsfirst.org/library/uscis-records-reveal-systemic-disparities-in-asylum-decisions/" target="_blank">
+            <div className="read-more-btn">
+              <Button style={{ backgroundColor: '#404C4A', color: '#FFFFFF' }}>
+                Read More
+              </Button>
+            </div>
+          </a>
         </div>
         <p onClick={() => scrollToTop()} className="back-to-top">
           Back To Top ^
