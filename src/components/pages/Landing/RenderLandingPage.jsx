@@ -36,17 +36,17 @@ function RenderLandingPage(props) {
 
       <div className="graphs-section">
         <div className="grant-rates-by-office-graph-container">
-          <img src={GrantRatesByOfficeImg} alt="Grant Rates by Office Graph" class="gr-office-img" />
+          <img src={GrantRatesByOfficeImg} alt="Grant Rates by Office Graph" className="gr-office-img" />
           <p>Search Grant Rates By Office</p>
         </div>
 
         <div className="grant-rates-by-nationality-container">
-          <img src={GrantRatesByNationalityImg} alt="Search Grant Rates by Office" class="gr-nationality-img" />
+          <img src={GrantRatesByNationalityImg} alt="Search Grant Rates by Office" className="gr-nationality-img" />
           <p>Search Grant Rates By Nationality</p>
         </div>
         
         <div className="grant-rates-over-time-container">
-          <img src={GrantRatesOverTimeImg} alt="Search Grant Rates by Office" class="gr-overtime-img" />
+          <img src={GrantRatesOverTimeImg} alt="Search Grant Rates by Office" className="gr-overtime-img" />
           <p>Search Grant Rates Over Time</p>
         </div>
       </div>
