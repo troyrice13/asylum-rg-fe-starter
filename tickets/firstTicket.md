@@ -30,7 +30,7 @@ You must:
 
 3. Do not use a Node version higher than 16.16.0. If you are, you can use `nvm` (for Mac) or `nvm-windows` to easily toggle your node versions in directories. 
 
-4. Make this project your own, but keep the integrity of the main files so that the app can render and work when you wish to present it. 
+4. Make this project your own, but keep the integrity of the main files so that the app can render and work when you wish to present it.
 
 ## Deliverables 
 

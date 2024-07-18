@@ -36,7 +36,6 @@ test('navigates to graphs page on button click', () => {
     const viewDataButton = screen.getByText(/View the Data/i);
     fireEvent.click(viewDataButton);
   
-    // Verify that the history location was updated
     expect(history.location.pathname).toEqual('/graphs');
   });
   
