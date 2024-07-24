@@ -56,7 +56,8 @@ function GraphWrapper(props) {
       .get(`${url}/fiscalSummary`, { //fetch data from first endpoint
         params: {
           from: years[0],
-          to: years[1]
+          to: years[1],
+          office: office !== 'all' ? office : undefined
         },
       })
       .then(fiscalSummaryResponse => {
@@ -66,7 +67,7 @@ function GraphWrapper(props) {
           params:{
           from: years[0],
           to: years[1],
-          office: office
+          office: office !== 'all' ? office : undefined
           },
         })
         .then(citizenshipSummaryResponse => {
