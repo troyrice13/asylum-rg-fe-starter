@@ -86,7 +86,7 @@ function GraphWrapper(props) {
           },
         })
         .then(result => {
-          dispatch(stateSettingCallback(view, office, result.data)); // <-- `test_data` here can be simply replaced by `result.data` in prod!
+          stateSettingCallback(view, office, [result.data]); // <-- `test_data` here can be simply replaced by `result.data` in prod!
         })
         .catch(err => {
           console.error(err);
@@ -103,7 +103,7 @@ function GraphWrapper(props) {
         })
         .then(result => {
           console.log(result.data);
-          dispatch(stateSettingCallback(view, office, result.data)); // <-- `test_data` here can be simply replaced by `result.data` in prod!
+          stateSettingCallback(view, office, result.data); // <-- `test_data` here can be simply replaced by `result.data` in prod!
         })
         .catch(err => {
           console.error(err);
