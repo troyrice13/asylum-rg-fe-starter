@@ -3,7 +3,7 @@
 To begin work on this ticket, make sure you have finished: 
 1. Getting locally setup. 
 2. Completed the `Onboarding Module` in your course. 
-3. Completed Build Sprint 1 and 2. 
+3. Completed Build Sprint 1 and 2.
 
 ### Objective
 
