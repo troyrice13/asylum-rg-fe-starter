@@ -36,6 +36,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.0",
     "redux": "^4.2.0",
+    "redux-mock-store": "^1.5.4",
     "styled-components": "^6.1.12"
   },
   "devDependencies": {
