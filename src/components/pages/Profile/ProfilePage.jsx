@@ -6,7 +6,6 @@ const ProfilePage = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
 
   const handleVerifyEmail = () => {
-    // You would typically call your backend here to trigger the email verification process
     alert('Verification email sent! Please check your inbox.');
   };
 
@@ -14,7 +13,7 @@ const ProfilePage = () => {
     return <div className='loading'>Loading...</div>;
   }
 
-  console.log(user); // Log the user object to see its structure
+  console.log(user);
 
   return (
     isAuthenticated && (
