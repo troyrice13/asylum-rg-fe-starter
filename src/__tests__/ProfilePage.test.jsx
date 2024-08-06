@@ -83,5 +83,5 @@ describe('ProfilePage', () => {
 
     fireEvent.click(screen.getByRole('button', { name: /verify email/i }));
     expect(window.alert).toHaveBeenCalledWith('Verification email sent! Please check your inbox.');
-  });
+  }); 
 });
